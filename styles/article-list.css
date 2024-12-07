@@ -1,0 +1,40 @@
+/* 記事一覧セクション */
+.article-list {
+    padding: 20px;
+    text-align: center;
+}
+
+/* 記事リストの見出し */
+.article-list h2 {
+    margin-bottom: 20px;
+}
+
+/* 記事のリスト */
+.articles {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px; /* 最大幅を設定 */
+    margin: 0 auto;   /* 両端に自動的にマージンを付けて中央寄せ */
+}
+
+/* 記事リンク */
+.articles li {
+    margin: 10px 0;
+}
+
+/* 記事リンクのスタイル */
+.articles a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    background-color: rgba(150, 12, 12, 0.7);
+    text-align: left; /* タイトルを左寄せ */
+}
+
+/* 記事リンクのホバー時 */
+.articles a:hover {
+    background-color: rgba(150, 12, 12, 1);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新規登録ページ</title>
+  <link rel="stylesheet" href="styles/common.css">  <!-- 共通スタイル -->
+  <link rel="stylesheet" href="styles/signup.css"> <!-- 新規登録専用のスタイル -->
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>[堀内研究室]技術ブログ</h1>
+      <div class="auth-buttons">
+        <a href="login.html"><button class="login-btn">ログイン</button></a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="nav-bar">
+      <li><a href="home.html">ホーム</a></li>
+      <li><a href="article-list.html">記事一覧</a></li>
+      <li><a href="article-post.html">記事投稿</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="login-form">
+      <h2>新規登録</h2>
+      <form action="#" method="POST">
+        <div class="input-group">
+          <label for="username">ユーザー名</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+          <label for="password">パスワード</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-group">
+          <label for="confirm-password">パスワード確認</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <button type="submit" class="signup-btn">新規登録</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

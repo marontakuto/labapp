@@ -1,0 +1,39 @@
+/* メインセクション */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    background-color: rgba(150, 12, 12, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.intro h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.intro p {
+    font-size: 16px;
+}
+
+/* サイト目的リストのデザイン */
+.purpose-list {
+    list-style-type: disc; /* 丸い箇条書きマーク */
+    margin: 20px auto;
+    padding-left: 20px; /* 左側にスペース */
+    max-width: 600px; /* リストの幅を制限 */
+    padding: 20px; /* 内側に余白をつける */
+    color: #fff;
+    text-align: left; /* 左揃えに設定 */
+}
+
+.purpose-list li {
+    margin-bottom: 10px; /* リスト項目ごとの間隔 */
+    font-size: 25px; /* フォントサイズ */
+}

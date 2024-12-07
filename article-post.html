@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[堀内研究室]技術ブログ - 記事投稿</title>
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/article-post.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>[堀内研究室]技術ブログ</h1>
+      <div class="auth-buttons">
+        <a href="login.html"><button class="login-btn">ログイン</button></a>
+        <a href="signup.html"><button class="signup-btn">新規登録</button></a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="nav-bar">
+      <li><a href="home.html">ホーム</a></li>
+      <li><a href="article-list.html">記事一覧</a></li>
+      <li><a href="article-post.html">記事投稿</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="post-form">
+      <h2>新しい記事の投稿</h2>
+      <form action="/submit-article" method="POST">
+        <label for="title">記事タイトル</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="content">記事内容</label>
+        <textarea id="content" name="content" rows="10" required></textarea>
+
+        <button type="submit" class="submit-btn">投稿する</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
